@@ -1,43 +1,36 @@
 body {
   background-color: gray;
 }
-#nav {
-  background-color: gray;
-}
 
-/* style of links */
-#nav a {
-  float: left;
+/* style of links and logo*/
+
+img {
   display: block;
-  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40px;
+  padding: auto;
+  display: inline-block;
+}
+#nav a {
+  /* float: left; */
+  display: inline-block;
+  color: black;
   text-align: right;
   padding: 14px 16px;
+  /* margin: 20px; */
   text-decoration: underline;
   font-size: 17px;
+  list-style-type: none;
 }
 #nav a:hover {
   background-color: rgb(170, 161, 161);
 }
+#nav a:hover cursor {
+  cursor: pointer;
+}
 
 /* styling picture */
-.start {
-  height: 600px;
-  width: 600px;
-}
-
-/* text about me */
-h1 {
-  color: #fcf3f3;
-  text-align: center;
-}
-p {
-  color: #fcf3f3;
-  text-align: center;
-}
-.second {
-  height: 200px;
-  width: 200px;
-}
 
 /* stylink projects */
 .works {
@@ -47,10 +40,10 @@ p {
 
 h3 {
   /* text-align: center; */
-  color: #fcf3f3;
+  color: black;
 }
 a {
-  color: #fcf3f3;
+  color: black;
 }
 
 /* social media */
@@ -59,8 +52,8 @@ a {
   height: 200px;
   width: 200px;
 }
-h4 {
-  color: #fcf3f3;
+#contact.find {
+  color: black;
 }
 
 /* form styling */
@@ -68,7 +61,7 @@ h4 {
   height: 200px;
   width: 200px;
   height: 200px;
-  color: rgb(245, 243, 243);
+  color: black;
   /* border-top: 1px solid gray; */
 }
 textarea {
