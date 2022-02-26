@@ -1,0 +1,15 @@
+body {
+  font-family: san-serif;
+  font-size: 21px;
+}
+
+p {
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 10px 12px 2px blue;
+  line-height: 10px;
+  /* text-align: justify; */
+  border: 1px solid blue;
+  border-radius: 50px;
+}
