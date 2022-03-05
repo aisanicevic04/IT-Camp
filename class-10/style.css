@@ -1,0 +1,46 @@
+#text {
+  width: 60%;
+  height: 100vh;
+  float: left;
+  background-color: yellow;
+  position: relative;
+}
+
+#text-content {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  background-color: rgb(37, 243, 10);
+}
+#form {
+  width: 40%;
+  height: 100vh;
+  float: right;
+  background-color: blue;
+  position: relative;
+}
+
+#form-content {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  background-color: green;
+}
+
+@media screen and (max-width: 600px) {
+  #text {
+    float: none;
+    width: 100%;
+  }
+  #form {
+    float: none;
+  }
+}
+
+/* @media screen and (min-width:){
+
+} */
