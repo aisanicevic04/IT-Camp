@@ -1,0 +1,22 @@
+#nav {
+  width: 200px;
+  height: 100px;
+  background-color: blue;
+  position: sticky;
+  float: left;
+  display: inline;
+}
+
+#nav2 {
+  width: 200px;
+  height: 100px;
+  background-color: blue;
+  position: sticky;
+  float: right;
+  display: inline;
+}
+
+.image {
+  width: 200px;
+  height: 300px;
+}
