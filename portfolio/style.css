@@ -183,7 +183,7 @@ button:active {
   background-image: url();
 }
 .form-style-7 {
-  max-width: 400px;
+  max-width: 1200px;
   margin: 50px auto;
   background: #fff;
   border-radius: 2px;
@@ -210,6 +210,7 @@ button:active {
   margin-bottom: 30px;
   border-radius: 3px;
 }
+
 .form-style-7 li:last-child {
   border: none;
   margin-bottom: 0px;
@@ -266,8 +267,49 @@ button:active {
   border-radius: 3px;
   color: #d2e2ff;
 }
-.form-style-7 input[type="submit"]:hover,
+*/ .form-style-7 input[type="submit"]:hover,
 .form-style-7 input[type="button"]:hover {
   background: #6b9fff;
   color: #fff;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  float: right;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+/* Instagram */
+
+.fa-instagram {
+  background: pink;
+  color: white;
+}
+
+/* Github */
+
+.fa-github {
+  background: rgb(26, 25, 25);
+  color: white;
 }
