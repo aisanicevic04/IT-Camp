@@ -83,7 +83,7 @@ nav ul li a {
 .text-container button {
   width: 130px;
   height: 42px;
-  border: radius 20px;
+  border-radius: 20px;
   font-weight: bold;
   font-family: calibri;
   font-size: 14px;
@@ -186,7 +186,7 @@ button:active {
   max-width: 1200px;
   margin: 50px auto;
   background: #fff;
-  border-radius: 2px;
+  border-radius: 40px;
   padding: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -233,8 +233,6 @@ button:active {
 .form-style-7 textarea,
 .form-style-7 select {
   box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   width: 100%;
   display: block;
   outline: none;
@@ -312,4 +310,10 @@ button:active {
 .fa-github {
   background: rgb(26, 25, 25);
   color: white;
+}
+
+#top {
+  font-family: calibri;
+  font-weight: 400;
+  color: gray;
 }
