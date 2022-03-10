@@ -1,0 +1,36 @@
+.container-center {
+  text-align: center;
+}
+
+/* side by side */
+.column {
+  box-sizing: border-box;
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* remove margin */
+.row {
+  margin: 0 -5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 700px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.card {
+  box-shadow: black;
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
