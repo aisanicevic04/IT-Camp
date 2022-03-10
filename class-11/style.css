@@ -1,0 +1,13 @@
+.categories {
+  display: inline-block;
+  width: 17%;
+}
+
+#first {
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
+}
+
+@media screen and (max-width: 600px) {
+}

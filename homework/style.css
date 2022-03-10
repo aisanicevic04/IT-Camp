@@ -6,13 +6,12 @@
 
 html {
   font-size: 10px;
-  font-family: "Roboto", sans-serif;
 }
 
 body {
   width: 100%;
   height: 100%;
-  display: flex;
+  display: inline-block;
   align-items: center;
   justify-content: center;
   background-color: #eee;
@@ -25,13 +24,15 @@ body {
   padding: 5rem;
   background-color: #fff;
   box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, 0.2);
-  display: flex;
-  align-items: center;
+  /* display: inline-block; */
+  /* align-items: center; */
   border-radius: 0.8rem;
 }
 
 .card-post_text {
+  display: inline-block;
   margin-bottom: 3rem;
+  width: 50%;
   font-size: 24px;
   color: rgba(0, 0, 0.7);
   font-weight: 700;
@@ -40,7 +41,6 @@ body {
 .card-post_btn {
   display: inline-block;
   padding: 1.5rem 3rem;
-  letter-spacing: 1px;
   text-transform: uppercase;
   font-size: 1.2rem;
   color: black;
@@ -58,12 +58,13 @@ body {
 @media screen and(max-width:868px) {
   .card-post {
     max-width: 100%;
+    display: inline-block;
   }
 }
 
 @media screen and(max-width:768px) {
   .card-post {
     padding: 14px;
-    flex-direction: column;
+    display: inline-block;
   }
 }
