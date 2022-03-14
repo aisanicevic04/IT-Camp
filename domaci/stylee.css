@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.item {
+  width: 30%;
+  height: 200px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(196, 196, 196);
+}
