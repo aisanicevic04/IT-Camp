@@ -54,3 +54,43 @@
 // var results = compare(10, 20, 30);
 // console.log(results);
 
+
+// var a = { name: "Aisa", surname: "Nicevic" };
+// if (a['name']) {
+//     console.log("objekat ima property address")
+// }
+// console.log(a)
+// console.log(a.name);
+
+// var a = { name: undefined, surname: "Nicevic" };
+// var aKeys = Object.keys(a);
+// var aValues = Object.values(a);
+// console.log(aKeys.includes("surname"));
+// console.log(aKeys, aValues);
+
+
+// if (a['name']!==undefined) {
+//     console.log("objekat ima property address")
+// }
+
+var objekat = {
+    name: "Aisa",
+    surname: "Nicevic",
+    address: {
+        street: "stevana nemanje",
+        number: 202,
+        city: "novi pazar"
+    },
+    friends: [{ name: "Ajsa" }, { name: "Amina" }],
+};
+// console.log(objekat.friends[1].name);
+
+objekat.fullName = `${objekat.name} ${objekat.surname}`;
+console.log(objekat)
+objekat.friends.push({ name: "Belkisa" });
+console.log(objekat)
+// delete objekat.name
+//     friend: ["Amina", "Ajsa"]
+// };
+
+// console.log(objekat.friend[1])
