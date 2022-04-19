@@ -71,26 +71,49 @@
 
 // if (a['name']!==undefined) {
 //     console.log("objekat ima property address")
-// }
+// // }
 
-var objekat = {
-    name: "Aisa",
-    surname: "Nicevic",
-    address: {
-        street: "stevana nemanje",
-        number: 202,
-        city: "novi pazar"
-    },
-    friends: [{ name: "Ajsa" }, { name: "Amina" }],
-};
-// console.log(objekat.friends[1].name);
+// var objekat = {
+//     name: "Aisa",
+//     surname: "Nicevic",
+//     address: {
+//         street: "stevana nemanje",
+//         number: 202,
+//         city: "novi pazar"
+//     },
+//     friends: [{ name: "Ajsa" }, { name: "Amina" }],
+// };
+// // console.log(objekat.friends[1].name);
 
-objekat.fullName = `${objekat.name} ${objekat.surname}`;
-console.log(objekat)
-objekat.friends.push({ name: "Belkisa" });
-console.log(objekat)
+// objekat.fullName = `${objekat.name} ${objekat.surname}`;
+// console.log(objekat)
+// objekat.friends.push({ name: "Belkisa" });
+// console.log(objekat)
 // delete objekat.name
 //     friend: ["Amina", "Ajsa"]
 // };
 
 // console.log(objekat.friend[1])
+
+
+var nizKorisnika = [{ name: "irfan" }, { name: "suad" }, { name: "daris" }]
+
+// for (let i = 0; i < nizKorisnika.length; i++) {
+//     const objekat = nizKorisnika[i];
+
+//     if (objekat.name === "suad") {
+//         console.log(objekat)
+//     }
+// }
+
+function findObjekt(niz, parametar, vrednostParametra) {
+    for (let i = 0; i < niz.length; i++) {
+    const objekat = niz[i];
+
+    if (objekat[parametar] === vrednostParametra) {
+        return objekat;
+        }
+    }
+}
+
+findObjekt(niz, 'name', 'suad')
