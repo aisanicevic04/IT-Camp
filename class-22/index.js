@@ -56,7 +56,7 @@
 
 
 function range(a, b) {
-  if (b - a === 0) {
+  if (b === a ) {
     return [a];
   } else {
     var numbers = range(a, b - 1);
