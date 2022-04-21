@@ -106,14 +106,17 @@ var nizKorisnika = [{ name: "irfan" }, { name: "suad" }, { name: "daris" }]
 //     }
 // }
 
-function findObjekt(niz, parametar, vrednostParametra) {
-    for (let i = 0; i < niz.length; i++) {
-    const objekat = niz[i];
+// function findObjekt(niz, parametar, vrednostParametra) {
+//     for (let i = 0; i < niz.length; i++) {
+//     const objekat = niz[i];
 
-    if (objekat[parametar] === vrednostParametra) {
-        return objekat;
-        }
-    }
-}
+//     if (objekat[parametar] === vrednostParametra) {
+//         return objekat;
+//         }
+//     }
+// }
 
-findObjekt(niz, 'name', 'suad')
+// findObjekt(niz, 'name', 'suad')
+
+
+

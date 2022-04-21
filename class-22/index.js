@@ -43,13 +43,26 @@
 // console.log(sumR(4))
 
 
-function countdown(n){
-  if (n === 0) {
-    return [];
+// function countdown(n){
+//   if (n === 0) {
+//     return [];
+//   } else {
+//     var arr = countdown(n - 1);
+//     arr.unshift(n);
+//     return arr;
+//   }
+// }
+// console.log(countdown(5));
+
+
+function range(a, b) {
+  if (b - a === 0) {
+    return [a];
   } else {
-    var arr = countdown(n - 1);
-    arr.unshift(n);
-    return arr;
+    var numbers = range(a, b - 1);
+    numbers.push(b);
+      return numbers;
   }
 }
-console.log(countdown(5));
+
+console.log(range(1,5))
