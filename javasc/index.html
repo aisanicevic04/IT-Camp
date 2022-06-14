@@ -1,27 +1,22 @@
-<html>
-    <script src="index.js"></script>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title> Verification of valid Password </title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
 </head>
 
 <body>
-    <center>
-        <h3> Verify valid password Example</h3>
+    <label for="page">Page number:</label>
+    <input type="number" id="page" value="0" />
+    <div id="content" style="display: flex; flex-wrap: wrap"></div>
 
-        <form onsubmit="return verifyPassword()">
-            <!-- Enter Password -->
-            <td> Enter Password </td>
-            <input type="password" id="pswd" value="">
-            <span id="message" style="color:red"> </span> <br><br>
-
-            <!-- Click to verify valid password -->
-            <input type="submit" value="Submit">
-
-            <!-- Click to reset fields -->
-            <button type="reset" value="Reset">Reset</button>
-        </form>
-    </center>
+    <div style="display: flex; justify-content: center">
+        <button id="click">Load</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
