@@ -23,10 +23,10 @@
 
 
 
-// const array = ['blastoff', 1, 2, 3];
+// const wordArr = ['blastoff', 1, 2, 3];
 
-// for (let index = array.length - 1; index >= 0; index--) {
-//   const element = array[index];
+// for (let index = wordArr.length - 1; index >= 0; index--) {
+//   const element = wordArr[index];
 //   console.log(element);
 // }
 
@@ -96,10 +96,10 @@
 // }
 
 // nazivFunkcije("dobro")
-// array=[3,2.4,3]
+// wordArr=[3,2.4,3]
 // function vracanjeBrojeva(br1) {
-//   for (let i = array.length - 1; i >= 0; i--) {
-//     const element = array[i];
+//   for (let i = wordArr.length - 1; i >= 0; i--) {
+//     const element = wordArr[i];
 //     console.log(element);
 // }
 
@@ -145,14 +145,60 @@
 
 
 
-function evenElements(arr) {
-    res = arr.filter((el) => {
-        if (el % 2 === 0) {
-            return el
-        }
-    });
-    return res
+// function evenElements(arr) {
+//     res = arr.filter((el) => {
+//         if (el % 2 === 0) {
+//             return el
+//         }
+//     });
+//     return res
+// }
+
+// niz1 = [1, 2, 3, 4, 5, 6];
+// niz2 = evenElements([])
+
+// console.log(niz1)
+// console.log(niz2)
+
+// program to check if the string is palindrome or not
+
+// function checkPalindrome(string) {
+
+//     // find the length of a string
+//     const len = string.length;
+
+//     // loop through half of the string
+//     for (let i = 0; i < len / 2; i++) {
+
+//         // check if first and last string are same
+//         if (string[i] !== string[len - 1 - i]) {
+//             return 'It is not a palindrome';
+//         }
+//     }
+//     return 'It is a palindrome';
+// }
+
+// // take input
+// const string = prompt('Enter a string: ');
+
+// // call the function
+// const value = checkPalindrome(string);
+
+// console.log(value);
+
+function firstLetter(word) {
+    wordArr = word.split(" ");
+
+    for (let i = 0; i < wordArr.length; i++) {
+        wordArr[i].split("");
+        wordArr[i][0] = wordArr[i][0].toUpperCase();
+        wordArr[i]=wordArr.join(" ")
+    }
+    return wordArr.join(" ")
 }
 
-niz1 = [1, 2, 3, 4, 5, 6];
-console.log(niz1)
+recenica = "the quick brown fox"; 
+recenica2 = firstLetter(recenica)
+
+console.log(recenica)
+console.log(recenica2)
