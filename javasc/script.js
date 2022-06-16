@@ -90,9 +90,69 @@
 // console.log('comanda')
 // nazivFunkcije()
 
-function nazivFunkcije(arg1) {
-  console.log("nesto", arg1)
+// function nazivFunkcije(arg1) {
+//   console.log("nesto", arg1)
   
+// }
+
+// nazivFunkcije("dobro")
+// array=[3,2.4,3]
+// function vracanjeBrojeva(br1) {
+//   for (let i = array.length - 1; i >= 0; i--) {
+//     const element = array[i];
+//     console.log(element);
+// }
+
+// }
+
+// vracanjeBrojeva()
+
+
+// function vracanjeBrojeva(n)
+// {
+// 	n = n + "";
+// 	return (Numbern.split("").reverse().join(""));
+// }
+// console.log(vracanjeBrojeva(32243));
+
+
+// function showUserInfo(username, pasword, name) {
+//     console.log(username)
+//     console.log(pasword)
+//     console.log(name)
+    
+// }
+// user = {
+//     username: "aisa",
+//     pasword: 12345,
+//     name: "aisa"
+// };
+
+
+// showUserInfo(user.username, user.pasword, user.name)
+
+
+
+// function sumaBrojeva(num1, num2) {
+//     res = num1 + num2;
+//     return res
+// }
+
+// returnValue = sumaBrojeva(9, 10)
+// console.log(returnValue)
+// sumaBrojeva(10,23)
+
+
+
+
+function evenElements(arr) {
+    res = arr.filter((el) => {
+        if (el % 2 === 0) {
+            return el
+        }
+    });
+    return res
 }
 
-nazivFunkcije("dobro")
+niz1 = [1, 2, 3, 4, 5, 6];
+console.log(niz1)
