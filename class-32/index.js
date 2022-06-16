@@ -31,12 +31,8 @@
 
 // unos = prompt("unesite ime")
 
-// kod = "END"
-
-// while (unos !== kod) {
+// while (unos !== "END") {
 //     console.log(unos)
 //     unos = prompt("unesite ime")
-
 // }
-
-
+// console.log(unos)

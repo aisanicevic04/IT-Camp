@@ -186,19 +186,19 @@
 
 // console.log(value);
 
-function firstLetter(word) {
-    wordArr = word.split(" ");
+// function firstLetter(word) {
+//     wordArr = word.split(" ");
 
-    for (let i = 0; i < wordArr.length; i++) {
-        wordArr[i].split("");
-        wordArr[i][0] = wordArr[i][0].toUpperCase();
-        wordArr[i]=wordArr.join(" ")
-    }
-    return wordArr.join(" ")
-}
+//     for (let i = 0; i < wordArr.length; i++) {
+//         wordArr[i].split("");
+//         wordArr[i][0] = wordArr[i][0].toUpperCase();
+//         wordArr[i]=wordArr.join(" ")
+//     }
+//     return wordArr.join(" ")
+// }
 
-recenica = "the quick brown fox"; 
-recenica2 = firstLetter(recenica)
+// recenica = "the quick brown fox"; 
+// recenica2 = firstLetter(recenica)
 
-console.log(recenica)
-console.log(recenica2)
+// console.log(recenica)
+// console.log(recenica2)
