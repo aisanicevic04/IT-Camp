@@ -5,12 +5,11 @@
 // }
 // console.log(vracanjeBrojeva(32243));
 
-
 // function showUserInfo(username, pasword, name) {
 //     console.log(username)
 //     console.log(pasword)
 //     console.log(name)
-    
+
 // }
 // user = {
 //     username: "aisa",
@@ -18,10 +17,7 @@
 //     name: "aisa"
 // };
 
-
 // showUserInfo(user.username, user.pasword, user.name)
-
-
 
 // function sumaBrojeva(num1, num2) {
 //     res = num1 + num2;
@@ -31,9 +27,6 @@
 // returnValue = sumaBrojeva(9, 10)
 // console.log(returnValue)
 // sumaBrojeva(10,23)
-
-
-
 
 // function evenElements(arr) {
 //     res = arr.filter((el) => {
@@ -93,44 +86,53 @@
 // console.log(recenica)
 // console.log(recenica2)
 
-
-
-
-// function dobarBr(num)
-// {
-// var a = 0;
-//    for(var i=1;i<=num/2;i++)
-//      {
-//          if(num%i === 0)
-//           {
+// function dobarBr(num) {
+//     let a = 0;
+//     for (let i = 1; i <= num / 2; i++) {
+//         if (num % i === 0) {
 //             a += i;
-//           }
-//      }
-   
-//      if(a === num && a !== 0)
-//         {
-//        console.log("Dobar broj.");
 //         }
-//      else
-//         {
-//        console.log("Nije dobar broj.");
-//         }
-//  }
+//     }
+
+//     if (a === num && a !== 0) {
+//         console.log("Dobar broj.");
+//     } else {
+//         console.log("Nije dobar broj.");
+//     }
+// }
 // dobarBr(28);
 
-// function func1(str1)
-// {
-//  var str=str1;
-//  var a="";
-//  for (var x=0;x < str.length;x++)
-//  {
-
-//  if(a.indexOf(str.charAt(x))==-1)
-//   {
-//   a += str[x];  
-  
-//    }
-//   }
-//   return a;  
-// }  
+// function func1(str1) {
+//     var str = str1;
+//     var a = "";
+//     for (var x = 0; x < str.length; x++) {
+//         // if (a.indexOf(str.charAt(x)) === -1)
+//         if (!a.includes(x)) {
+//             a += str[x];
+//         }
+//     }
+//     return a;
+// }
 // console.log(func1("thequickbrownfoxjumpsoverthelazydog"));
+
+
+appoens = [25, 10, 5, 2, 1];
+amount = 46;
+
+money = [];
+
+
+while (amount > 0) {
+    if (amount - appoens[i] >= 0) {
+        amount -= appoens[i];
+        money.push(appoens[i]);
+
+    }
+    else {
+        i++;
+    }
+}
+
+console.log(money)
+
+
