@@ -116,23 +116,36 @@
 // console.log(func1("thequickbrownfoxjumpsoverthelazydog"));
 
 
-appoens = [25, 10, 5, 2, 1];
-amount = 46;
+// appoens = [25, 10, 5, 2, 1];
+// amount = 46;
 
-money = [];
-
-
-while (amount > 0) {
-    if (amount - appoens[i] >= 0) {
-        amount -= appoens[i];
-        money.push(appoens[i]);
-
-    }
-    else {
-        i++;
-    }
-}
-
-console.log(money)
+// money = [];
 
 
+// while (amount > 0) {
+//     if (amount - appoens[i] >= 0) {
+//         amount -= appoens[i];
+//         money.push(appoens[i]);
+
+//     }
+//     else {
+//         i++;
+//     }
+// }
+
+// console.log(money)
+
+
+
+console.log(1)
+console.log(2)
+
+setTimeout(() => {
+    console.log(3);
+}, 1000);
+
+console.log(4)
+
+setTimeout(() => {
+    console.log(5);
+}, 1000);
